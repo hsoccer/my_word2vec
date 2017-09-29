@@ -1,0 +1,2 @@
+# my_word2vec
+MeCabやgensimのword2vecを使ったモデルの構築例
