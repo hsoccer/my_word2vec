@@ -22,6 +22,7 @@ def kokoro():
 
     #Vectorizerインスタンスを作成
     #__init__で文章が分かち書きされたファイル(out.txt)が同じディレクトリ内に作られる。
+    #dic_dir、user_dirは変更が必要
     v = Vectorizer(file_dir="kokoro.txt",\
      dic_dir="/usr/local/lib/mecab/dic/mecab-ipadic-neologd",\
      user_dir="/Users/ユーザ名/Desktop/word2vec/user.dic")
