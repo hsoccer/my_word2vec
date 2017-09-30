@@ -20,7 +20,7 @@ class Wakati(object):
         【変数説明】
         file_dir : 入力となる文章のディレクトリ
         dic_dir : システム辞書のディレクトリ(/usr/local/lib/mecab/dic/mecab-ipadic-neologd)
-        user_dir : ユーザー辞書のディレクトリ(/Users/konoharuki/Desktop/word2vec/user.dic)
+        user_dir : ユーザー辞書のディレクトリ(/Users/ユーザ名/Desktop/word2vec/user.dic)
         hinshis : 活用する語
         tagger : MeCab用のtagger(詳細はMeCab自体のドキュメント参照)
         f : 入力ファイル
