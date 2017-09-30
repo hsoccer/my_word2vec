@@ -1,4 +1,4 @@
-from Word2Vec import Vectorizer
+from vectorizer import Vectorizer
 
 """
 ==========================================================
@@ -17,14 +17,14 @@ def kokoro():
     ==========================================================
     【変数説明】
     dic_dir : システム辞書のディレクトリ(このPCでは"/usr/local/lib/mecab/dic/mecab-ipadic-neologd")
-    user_dir : ユーザー辞書のディレクトリ(このPCでは"/Users/konoharuki/Desktop/word2vec/user.dic")
+    user_dir : ユーザー辞書のディレクトリ(このPCでは"/Users/ユーザ名/Desktop/word2vec/user.dic")
     """
 
     #Vectorizerインスタンスを作成
     #__init__で文章が分かち書きされたファイル(out.txt)が同じディレクトリ内に作られる。
     v = Vectorizer(file_dir="kokoro.txt",\
      dic_dir="/usr/local/lib/mecab/dic/mecab-ipadic-neologd",\
-     user_dir="/Users/konoharuki/Desktop/word2vec/user.dic")
+     user_dir="/Users/ユーザ名/Desktop/word2vec/user.dic")
 
     #単語の分散表現のモデル作成
     v.vectorize()
